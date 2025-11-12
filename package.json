@@ -1,21 +1,19 @@
 {
-  "name": "toyyibpay callback",
+  "name": "toyyibpay_callback_server_render",
   "version": "1.0.0",
+  "description": "ToyyibPay callback server for Render and Android emulator testing (zero-dependency HTTP core, optional dotenv/node-fetch).",
   "main": "index.js",
-  "type": "commonjs",
+  "license": "MIT",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
-    "axios": "^1.7.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.0",
-    "express": "^4.19.0",
-    "morgan": "^1.10.0",
-    "querystring": "^0.2.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.0"
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
   }
 }
+
